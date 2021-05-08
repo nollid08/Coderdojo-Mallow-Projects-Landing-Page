@@ -5,6 +5,12 @@ html, body{
   height:100%;
   width:100%;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
 header{
   text-align: center;
   padding-top: 10vh;
@@ -26,18 +32,19 @@ h2{
 }
 
 .cardContainer{
-  margin-top: 10vh;
+  margin-top: 8vh;
   padding-bottom:5vh;
   width:100%;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  row-gap: 3vh;
+  row-gap: 1vh;
 }
 
 .card{
   border-radius: 15px;
   width:25vw;
+  height:24vw;
   background-color: #faf3f3;
   box-shadow: 5px 5px 25px rgb(141, 141, 141);
   overflow: hidden;
@@ -70,4 +77,5 @@ h2{
   font-size: 2vh;
   margin:0.5vh;
   padding:0;
+  text-decoration: none;
 }
