@@ -1,0 +1,42 @@
+html, body{
+  margin:0;
+  padding:0;
+  background-color: #FCECDD;
+  height:100%;
+  width:100%;
+}
+header{
+  text-align: center;
+  padding-top: 12vh;
+}
+h1, h2{
+  font-family: 'Roboto Slab', serif;
+  color: #939B62;
+  margin:0.5vh;
+  padding:0;
+}
+
+h1{
+  font-size: 5vw;
+  font-weight:900;
+}
+h2{
+  font-size: 3vw;
+  font-weight:700;
+}
+
+.cardContainer{
+  margin-top: 10vh;
+width:100vw;
+display:flex;
+justify-content: space-around;
+justify-content: space-around;
+}
+
+.card{
+  border-radius: 15px;
+  height:25vw;
+  width:25vw;
+  background-color:white;
+  box-shadow: 5px 5px 25px rgb(141, 141, 141);
+}
